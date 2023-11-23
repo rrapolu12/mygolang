@@ -5,7 +5,7 @@ import "fmt"
 func main(){
 
 	//bitwise AND
-	var x, y int = 12 , 25
+	var x, y int = 100 , 90
 	var z = x & y
 	fmt.Println(z)
 
@@ -23,7 +23,7 @@ func main(){
 	fmt.Println(z)
 
 	//bitwise right shift
-	z = x >> 1
+	z = 190 >> 2
 	fmt.Println(z)
 	
 
